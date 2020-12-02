@@ -1,0 +1,47 @@
+
+.content-area{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	padding-left:5%;
+}
+#verticalTab{
+	font-family: 'helveticaNeue', sans-serif;
+	padding:10px 10px;
+	overflow:hidden;
+}
+
+.resp-tabs-container img{
+	width:17%;
+	height:auto;
+	padding-top:25px;
+}
+.bg-color{
+	background :#3CC;
+}
+
+.bg-image{
+	background-color: white;
+	background-image: url(backgrounds/bg.png)!important;
+	background-position: 00% 0%;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	border-radius:10px;
+}
+
+.resp-vtabs ul.resp-tabs-list{
+	background: #8a846db3;
+}
+
+.news{
+	color: #000;
+}
+.news:hover{
+	color:#FFF;
+	font:bold;
+	}
+
+
+
+
+

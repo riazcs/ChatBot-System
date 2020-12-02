@@ -1,0 +1,179 @@
+
+
+
+
+@media all and (max-width:768px){
+
+	.main-menu {
+		padding-top: 0;
+		text-align:left;
+	}
+	
+	
+	
+	.main-menu ul {
+		padding: 0;
+		display: none;
+	}
+	
+	.main-menu ul ul{
+		left:20px;
+		position:inherit;
+	}
+	
+	
+	
+	.main-menu .bar i{
+		font-size:20px;
+	}
+	
+	.main-menu ul li {
+		float: none;
+	}
+	.main-menu .bar {
+		display: block;
+		padding:12px 5px;
+	}
+	
+	
+	
+	.main-menu ul li a,
+	.main-menu ul li a{
+		display:block
+	}
+	
+	header .logo{
+		top:0;
+		left:1%;
+	}
+	
+	
+	
+	
+	/*************** Vertical tav ***********/
+	
+	.resp-vtabs .resp-tabs-container {  
+		float:none;
+		width: 95%;
+		margin:10px auto;
+		border:1px solid gray;
+		
+	}
+	
+	.resp-tab-content {
+		display: none;
+		padding: 5px;
+	}
+
+	.center-tab{
+		margin:auto;
+	}
+	
+	.resp-vtabs ul.resp-tabs-list {
+		float: inherit;
+		width: 85%;
+		display:block;
+		border:1px solid #bdc3c7;
+		margin:auto;
+	}
+	
+	/************** logo ****************/
+	.logo {
+		left: 1%;
+		top: 1%;
+		transition:all 0.5s;
+	}
+	
+	.container .faculty-area {
+		float: inherit;
+		margin: auto;
+		width: 95%;
+	}
+	
+	.faculty-menu{
+		width:100%;
+		float:inherit;
+		margin:auto;
+	
+	}
+	
+
+	
+	.information .news-wrapper {
+		float: inherit;
+		margin: 1%;
+		width: 98%;
+	}
+	
+	.information .notice{
+		float:inherit;
+		width:98%;
+		margin:1%;
+	}
+	
+	
+	
+	/** faculty **/
+	
+	.faculty-menu ul li:hover:before{
+		right: 99.5%;
+		/* top: calc(50% - 7px); */
+		/* position: absolute;  */
+		/* z-index:99999; */
+	}
+	
+	
+	/** widget area ***/
+	
+	
+	.widget-area .widget-item {
+		float: left;
+		margin: 1%;
+		overflow: hidden;
+		padding: 15px 0;
+		width: 48%;
+	}
+	
+	
+	/* contact */
+	
+	
+	
+footer .contact{
+	text-align:center;
+	
+}
+footer .contact .box {
+	float:none;
+	display:inline-block;
+	width:30%;
+}
+
+@media all and (max-width:480px){
+	
+	header .top-left {
+		display: none;
+	}
+	
+	.navigation_contenair h2, 
+	.navigation_contenair h3, 
+	.navigation_contenair h4, 
+	.navigation_contenair h5{
+		font-size: 25px;
+		line-height: 35px;
+		text-align: center;
+
+	}
+	
+	
+	header .banner {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media all and (max-width:480px){
+	.faculty ul{
+		text-align:center;
+	}
+}
